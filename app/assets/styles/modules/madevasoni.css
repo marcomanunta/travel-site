@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* FONT COLOR ALL SITE */
+* {
+  font-family: 'Raleway', sans-serif !important;
+  color: #2e3192;
+}
+
+body {
+  font-family: 'Raleway', sans-serif !important;
+  color: #2e3192;
+  font-size: 1.19rem;
+}
+
+/* SPAZIO SOPRA LOGO */
+#header_main {
+  padding-top: 0px !important;
+}
+
+/* MENU - FONT */
+#header_main .avia-menu-text {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+}
+
+/* HEADER - SPAZIO SOPRA */
+#header_meta {
+  min-height: 14px !important;
+}
+/* BACKGROUND TESTO SELEZIONATO */
+*::selection {
+  background: #2e3192; /* WebKit/Blink Browsers */
+}
+*::-moz-selection {
+  background: #2e3192; /* Gecko Browsers */
+}
+
+/* VISUALIZZA SEMPRE SCROLLBAR */
+/*body { overflow-x:auto; overflow-y:scroll;
+}*/
+
+/* MENU -  BORDO SOTTO MENU - COLORE */
+.header_color div {
+  border-color: #2e3192;
+}
+/* MENU - INCREASE SPACE BETWEEN MENU ITEMS */
+.av-main-nav > li > a {
+  padding: 0 20px;
+}
+/* RALLENTA ANIMAZIONE */
+#img-svg-home .avia_start_delayed_animation.fade-in {
+  -webkit-animation: avia-fadein 10s 6 ease-in-out !important;
+  animation: avia-fadein 10s 6 ease-in-out !important;
+  opacity: 1;
+}
+
+/* CENTRA IMMAGINI HOME SEZ. ATTIVITA' */
+.av-layout-grid-container {
+  margin: 0 auto;
+  width: 60vw;
+}
+@media only screen and (max-width: 1200px) {
+  .av-layout-grid-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+/* END - CENTRA IMMAGINI HOME SEZ. ATTIVITA' */
+/**/
+#header_main {
+  padding-top: 24px;
+}
+@media only screen and (max-width: 990px) {
+  #header_main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* MENU - SOTTOLINEATURA SELEZIONATO */
+.avia-menu-fx {
+  background-color: #474996 !important;
+}
+
+/* MENU - SPACE BETWEEN LETTERS */
+#top #header .av-main-nav > li > a .avia-menu-text {
+  letter-spacing: 0px !important;
+}
+
+/* BURGERMENU COLOR - AFTER */
+.header_color .av-hamburger-inner,
+.header_color .av-hamburger-inner::before,
+.header_color .av-hamburger-inner::after {
+  background-color: #2b2d76 !important;
+}
+.html_av-overlay-side #top #wrap_all .av-burger-overlay-scroll #av-burger-menu-ul a {
+  color: #2b2d76 !important;
+}
+/* END - BURGERMENU COLOR - AFTER */
+
+/* BUTTOM - RICHIEDI INFO */
+.avia-button {
+  border: 1px solid #2b2d76 !important;
+  background-color: #ffffff !important;
+  padding: 0 60px;
+}
+
+/* FOOTER - CENTER SOCKET */
+#socket .copyright {
+  text-align: center !important;
+  display: block;
+  width: auto;
+  float: none !important;
+}
+
+/* PULSANTI SCOPRI - HOME ATTIVITA' - non in uso */
+.btn-toolset {
+  display: inline-block;
+  text-align: center;
+  /* white-space: nowrap;*/
+
+  text-decoration: none;
+  line-height: 1.2;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff !important;
+  /* font-size: 18px;*/
+  background-color: #2a2b79;
+  border-radius: 2px;
+  padding: 0px 20px 0px 20px;
+  border: 1px solid #2a2b79;
+  cursor: pointer;
+}
+.btn-toolset:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #2a2b79;
+}
+/*.btn-toolset > strong {
+ font-size: 24px;
+}*/
+
+/* PULSANTI SCOPRI - HOME ATTIVITA' - non in uso 2 */
+.butn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Georgia;
+  color: #ffffff !important;
+  font-size: 20px;
+  background: #2a2b79;
+  padding: 10px 20px 10px 20px;
+  border: solid #2a2b79 1px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #fff;
+  text-decoration: none;
+  color: #2a2b79;
+}
+
+/* END - PULSANTI SCOPRI - HOME ATTIVITA' - non in uso */
+
+/* SCROLL TOP COLOR */
+#scroll-top-link {
+  background-color: #2a2b79;
+  border-color: #fff;
+  color: #fff;
+}
+#scroll-top-link:hover {
+  background-color: #fff;
+  border-color: #2a2b79;
+  color: #2a2b79;
+}
+
+/* FOOTER - SOCKET */
+.mysocket {
+  text-align: center !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #2e3192 !important;
+  font-family: 'Raleway', sans-serif !important;
+  text-transform: none !important;
+  text-decoration: none !important;
+}
+.mysocket a {
+  color: #2a2b79;
+}
+/* END FOOTER - SOCKET */
+
+/* BLOG - HIDE BLOG AUTHOR */
+.text-sep-cat,
+.blog-author,
+.blog-categories,
+.text-sep-comment {
+  display: none !important;
+}
+
+/* BLOG - HIDE SEPARATORE DATA */
+.text-sep-date {
+  display: none !important;
+}
+
+/* CONTATTI - VIDEO FULL WIDTH */
+#section-container-width .container {
+  width: 100% !important;
+  min-width: 100% !important;
+  padding: 0;
+  margin: 0;
+}
+
+/* CONTATTI - BUTTON COLOR E POSITION */
+.main_color input[type='submit'] {
+  background-color: #fff;
+  color: #2e3192;
+  border: 1px solid #2e3192 !important;
+  float: right;
+  font-family: 'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial,
+    sans-serif;
+}
+.main_color input[type='submit']:hover {
+  background-color: #f1f1f1;
+  color: #2e3192;
+  border: 1px solid #2e3192 !important;
+}
+
+/* WOOCOMMERCE - COLORE PREZZO */
+#top .main_color .price {
+  color: #666666;
+}
+/* WOOCOMMERCE - RIMUOVE OPZIONI DI VISUALIZZAZIONE PRODOTTI */
+/*.product-sorting { display: none !important; }*/
+
+/* WOOCOMMERCE - BUTTON AGGIUNGI AL CARRELLO */
+.woocommerce-page .button {
+  background-color: #fff !important;
+  color: #2e3192 !important;
+  border: 1px solid #2e3192 !important;
+}
+.woocommerce-page .button:hover {
+  background-color: #2e3192 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+/* END WOOCOMMERCE - BUTTON AGGIUNGI AL CARRELLO */
+
+/* SPAZIO SOPRA PRODOTTO */
+.single-product .template-shop {
+  padding-top: 120px;
+}
+
+/* NEWS - HIDE LITE GREY BORDER IN NEWS (NOVITA') SECTION */
+.main_color {
+  border-color: #fff;
+}
+/* NEWS - BORDER COLOR SIDEBAR */
+.main_color aside {
+  border-color: #fff;
+}
+/* IMMAGINI - COLORE CERCHIO CON FRECCIO BIANCA SU IMMAGINI */
+.image-overlay .image-overlay-inside:before {
+  background: #2e3192 !important;
+}
+
+/* LINK - COLORE */
+.main_color a {
+  color: #2e3192;
+}
+.main_color a:hover {
+  color: #2e3192;
+}
+
+/* POPUP - Lightbox – change colour/opacity of background */
+.mfp-bg {
+  background-color: #2e3192 !important;
+  opacity: 0.3 !important;
+}
+
+/* POPUP - MARGINE BASSO */
+#top fieldset {
+  margin-bottom: 0px !important;
+}
+#top form {
+  margin-bottom: 0px !important;
+}
+/* POPUP - LUNGHEZZA CAMPO INDIRIZZO EMAIL */
+#top .avia_ajax_form .text_input {
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 6%;
+  padding: 13px;
+  border-color: #2e3192;
+}
+
+/* POPUP - TESTO ETICHETTA CAMPO inserisci l'indirizzo... */
+#top input[type='text'] {
+  color: #000;
+}
+
+/* POPUP - MESSAGGIO DI CONFERMA INVIO */
+.avia-form-success {
+  background: white;
+  margin: 0 20px 40px 0;
+}
+
+/* POPUP PLUGIN ICEGRAM - CSS ORIG. plugins\icegram\message-types\popup\themes\popup.min.css */
+/*//////////// 583 bordo popup e backgroud image ////////////*/
+
+.ig_popup.ig_air-mail {
+  position: relative !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: #2e3192 !important;
+  -moz-border-image: none !important;
+  -webkit-border-image: none !important;
+  -o-border-image: none !important;
+  border-image: none !important;
+  background-color: #fdfdfd !important;
+  color: #2e3192 !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  border-radius: 5px !important;
+  background: url(http://madevasoni.local/wp-content/uploads/celtica_half.jpg) no-repeat !important;
+  background-repeat: no-repeat !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  background-color: #fff !important;
+  background-position: top right;
+}
+/*//////////// 595 titolo ////////////*/
+
+.ig_popup.ig_air-mail .ig_headline {
+  padding: 0.5em !important;
+  font-size: 2.5em !important;
+  text-align: left !important;
+  color: #2e3192 !important;
+  text-shadow: -4px 0 #fff, 0 4px #fff, 4px 0 #fff, 0 -4px #fff !important;
+}
+
+/*//////////// 605 magini pop up ////////////*/
+
+.ig_popup.ig_air-mail .ig_message {
+  padding: 12% 0 0 20px !important;
+  font-size: 1.2em !important;
+}
+
+/*///////////// 632 pulsante invio ////////////*/
+.ig_popup.ig_air-mail .ig_button,
+.ig_popup.ig_air-mail input[type='submit'],
+.ig_popup.ig_air-mail input[type='button'] {
+  /*	background: #D82931!important;
+	color: #FFF!important;*/
+  /*	width: 50%!important;*/
+  border-radius: 4px !important;
+  /*	border: none!important;*/
+  font-size: 16px !important;
+  /*	text-transform: uppercase!important;
+	font-weight: 600!important;*/
+  text-align: center !important;
+  margin: -20px 0 10% 0 !important;
+  padding: 0.5em 0.15em !important;
+  border: 1px solid #2e3192 !important;
+}
+
+/* BREADCRUMBS - COLORE */
+.alternate_color .breadcrumb,
+.alternate_color .breadcrumb a,
+#top .alternate_color.title_container .main-title,
+#top .alternate_color.title_container .main-title a {
+  color: #2e3192 !important;
+}
+
+/* MENU - BORDO */
+.container_wrap {
+  border-top: #fff;
+  border-top-color: rgb(255, 255, 255);
+}
+/* SHOP - DIDASCALIA IMMAGINE CATEGORIE */
+/*#top .noHover .av-image-caption-overlay {
+    height: 50px;
+    bottom: 0;
+}*/
+/* SHOP - HIDE DISPLAY PRODUCT PER PAGE */
+.sort-param.sort-param-count {
+  display: none !important;
+}
+/*SHOP - COLORE TESTO AGG. CARRELLO E MOSTRA DETTAGLI */
+#top .main_color .avia_cart_buttons .button {
+  color: #2e3192 !important;
+}
+/**/
+
+/* MENU SECONDARIO - ICONA ACCOUNT */
+/*#menu-item-1392:before {
+font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f007";
+padding-right:6px;
+}*/
+/*#menu-item-1392{
+font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f007";
+padding-right:6px;
+}*/
+/* MENU SECONDARIO - COLORE VOCI MENU */
+.header_color .sub_menu > ul > li > a {
+  color: #2e3192 !important;
+}
+/* MENU SECONDARIO - RIMUOVE SOTTOLINEATURA LINK MENU */
+#avia2-menu.menu a {
+  text-decoration: none !important;
+}
+
+/* MENU SECONDARIO - BACKGROUND E BORDO BASSO */
+#header_meta {
+  border-bottom-width: 0px !important;
+  padding-top: 2px !important;
+  background: none !important;
+}
+/* CART */
+
+/* CART - CARRELLO ICONA COLOR */
+.header_color .cart_dropdown_first .cart_dropdown_link {
+  color: #2b2d76 !important;
+}
+
+// /* CART - BACKGROUD CARRELLO E  */
+// .cart_dropdown .dropdown_widget .widget_shopping_cart_content {
+//   /*    box-shadow: 0 10px 15px #fff;*/
+// }
+
+/* CART - MESSAGGIO AGGIUNTA ARTICOLO NEL CARRELLO */
+#top div.woocommerce-message {
+  border-color: #fff;
+  background-color: #6a6ee4;
+  color: #fff;
+}
+
+/* CART - ICONA CARRELLO SPOSTA A SX */
+.responsive #top .cart_dropdown {
+  right: 1%;
+}
+/* CART - ICONA CARRELLO SPOSTA A SX - RESPONSIVE */
+@media only screen and (max-width: 767px) {
+  .responsive #top .cart_dropdown {
+    right: 23%;
+  }
+}
+/*-----------------------------*/
+/*WOO MESSAGE */
+#top label span {
+  color: #2e3192 !important;
+  font-size: 15px;
+}
+
+/* WOO - POPUP AGGINTA E RIMOZIONE DAL CARRELLO */
+#top div.woocommerce-message {
+  background-color: #2e3192;
+}
+#top div.woocommerce-message a {
+  color: #fff000;
+}
+
+/* WOO - RIMUOVE TABINFORMAZIONI AGGIUNTIVE PRODOTTO */
+.additional_information_tab,
+.woocommerce-Tabs-panel--additional_information {
+  display: none;
+}
+
+/* WOO - LINK ADD CART AND MORE INFO */
+#top .main_color .avia_cart_buttons .button {
+  background: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+/* WOO - HIDE THE SECOND DESCRIPTION */
+/*#top .woocommerce-tabs h2 {
+display: none;
+}
+*/
+/* NEWSLETTER FORM CONTATTI */
+#top form {
+  margin-bottom: 20px !important;
+}
+
+/* NEWSLETTER FORM POPUP - YIKES Easy Forms for Mailchimp */
+.yikes-easy-mc-form .yikes-easy-mc-submit-button {
+  border: 1px solid #2e3192 !important;
+  background: #fff !important;
+  display: block !important;
+  width: 20% !important;
+  min-width: 40% !important;
+  margin-top: 0.4em !important;
+}
+
+#top input[type='email'] {
+  border: 1px solid #2e3192 !important;
+  padding: 11px 16px;
+  width: 86% !important;
+}
+
+.yikes-easy-mc-success-message {
+  background: #fff !important;
+  padding: 22px !important;
+  position: relative;
+  margin-bottom: 20px !important;
+  width: 96% !important;
+}
+.yikes-easy-mc-error-message {
+  color: rgba(216, 48, 57, 0.87);
+  background: #fff !important;
+  padding: 22px !important;
+  position: relative;
+  margin-bottom: 20px !important;
+  width: 96% !important;
+}
+/* END NEWSLETTER FORM POPUP - YIKES Easy Forms for Mailchimp */
+
+/* FOOTER - SOCKET MARGIN BOTTOM */
+table {
+  margin: 0 0 -10px 0 !important;
+}
+
+/* WOO - SPAZIO SOPRA + & - Q.TY (SOTTO AL PREZZO)*/
+.summary .cart {
+  padding-top: 10px;
+}
+
+/* WOO - HIDE CATEGORIA PRODOTTO IN SOTTO PULSANTI + & - IN PICCOLO */
+.template-shop .product_meta .posted_in {
+  display: none;
+}
+
+/* BREADCRUMS ALL LOWERCASE */
+.title_container .breadcrumb {
+  text-transform: lowercase !important;
+  left: 5% !important;
+}
+
+/* WOO - SPAZIO SOPRA PRODOTTO  */
+.single-product .template-shop {
+  padding-top: 2%;
+}
+
+/* CART - RESPONSIVE */
+// @media only screen and (max-width: 767px) {
+//   .responsive #top #wrap_all .main_menu {
+//     left: auto;
+//     right: -28px;
+//   }
+//   @media only screen and (max-width: 767px) {
+//     -webkit-transform: translateX(-10px) !important;
+//     transform: translateX(-10px) !important;
+//   }
+// }
+
+/* PAGINA NOVITA' (NEWS) - NUMERI PAGINA */
+#top .pagination .current {
+  border: 1px solid #2e3192 !important;
+  background: #2e3192 !important;
+  color: #fff !important;
+}
+
+.main_color .pagination a:hover {
+  background: #5a5ecf !important;
+  color: #fff !important;
+}
+
+.main_color .pagination a {
+  background: #fff !important;
+  color: #2e3192 !important;
+  border: 1px solid #2e3192 !important;
+}
+
+/* PAGINA NOVITA' (NEWS) - BORDO VERTICALE */
+.main_color,
+.main_color div {
+  border-color: #fff !important;
+}
+
+/* WOO - PREVIEW & NEXT ARROW IN PRODUCT PAGE */
+#top .avia-post-nav:hover {
+  background: #fff !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid #2e3192 !important;
+}
+
+/* BUTTON WHITE - pag. HOME SEZ. ATTVITA' e WORKSHOP */
+.mybuttonwhite {
+  border: 2px solid #fff !important;
+  display: inline-block !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+  /* font-weight: normal!important;*/
+  /* font-family: sans-serif!important;*/
+  font-size: 14px !important;
+  border-radius: 2px;
+  padding: 8px 18px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.mybuttonwhite:hover {
+  color: #2e3192 !important;
+  background-color: #ffffff;
+}
+
+/* BUTTON BLU - pag. 404 */
+.mybuttonblue {
+  border: 1px solid #2e3192 !important;
+  display: inline-block !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  color: #2e3192 !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+  font-size: 16px !important;
+  border-radius: 2px;
+  padding: 12px 22px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.mybuttonblue:hover {
+  color: #fff !important;
+  background-color: #2e3192;
+}
+
+@media only screen and (max-width: 768px) {
+  #top.single-product .template-shop .container {
+    margin-top: 15px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #top.single-product .template-shop .container {
+    margin-top: 30px;
+  }
+}
+
+.woocommerce-Price-amount::after {
+  content: '.-';
+}
+
+#top .all_colors .shop-cat p {
+  text-align: center;
+  position: relative;
+  width: 380px;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  #top .all_colors .shop-cat.left p {
+    float: right;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #top .all_colors .shop-cat.right p {
+    float: left;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #top .all_colors .shop-cat.right p,
+  #top .all_colors .shop-cat.left p {
+    margin: 15px auto;
+  }
+}
+
+#top .all_colors .shop-cat.left.stelle p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://madevasoni.local/wp-content/uploads/croce_tuareg_agadez_4-300x300.jpg);
+}
+
+#top .all_colors .shop-cat.right.libri p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://madevasoni.local/wp-content/uploads/libro-haiku-irregolari-in-forma-di-musica-5.jpg);
+}
+
+#top .all_colors .shop-cat.left.cd p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://madevasoni.local/wp-content/uploads/libro-e-cd-haiku-irregolari-in-forma-di-musica-agora-edizioni-lugano-autore-aima-illustrazioni-diego-cinquegrana-fotografia-aimaproject-agenzia-di-comunicazione-5.jpg);
+}
+
+#top .all_colors .shop-cat.right.arte p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://madevasoni.local/wp-content/uploads/acquerello-watercolour-diego-cinquegrana-thegoldentorch-a-00000010-inv.jpg);
+}
+
+#top .all_colors .shop-cat.left.idee p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://madevasoni.local/wp-content/uploads/segnalibro-equinox-inni-orfici-inno-a-selene-5.jpg);
+}
+
+#top .all_colors .shop-cat.right.beneficenza p {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(http://madevasoni.local/wp-content/uploads/cd-zona-rossa-iniziativa-umanitaria-niger-tuareg-9.jpg);
+}
+
+#top .all_colors .shop-cat p a:link,
+#top .all_colors .shop-cat p a:visited {
+  width: 100%;
+  display: block;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: font-size 0.4s;
+}
+
+#top .all_colors .shop-cat p a:hover,
+#top .all_colors .shop-cat p a:active {
+  font-size: 3.2rem;
+}
+
+#top .all_colors .term-description p {
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+iframe {
+  margin: 20px 0;
+}
+
+p {
+  font-size: 19px;
+  color: #2e3192;
+  font-family: 'arial', sans-serif;
+  font-weight: 200;
+  text-align: justify;
+  line-height: 24px;
+  margin-left: -56px;
+  margin-right: -56p;
+}
